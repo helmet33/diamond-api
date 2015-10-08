@@ -3,7 +3,8 @@
 In this exercise we will build a HTTP API for keeping stock of our diamonds.
 
 ## Exercises
-1. In diamond.js, write code to create a sqlite database, with a single table that has the folloiwng fields:
+1. In diamond.js, write code to create a sqlite database, with a single table that has the folloiwng fields (Explanations for all fields except id are available in the file prices-of-diamonds.html.
+id should be a auto-incrementing primary key.):
   - id
   - carat
   - cut
@@ -15,9 +16,6 @@ In this exercise we will build a HTTP API for keeping stock of our diamonds.
   - x
   - y
   - z
-
-Explanations for all fields except id are available in the file prices-of-diamonds.html.
-id should be a auto-incrementing primary key.
 
 1. Write a function to load the contents of prices-of-diamonds into the database.
 
