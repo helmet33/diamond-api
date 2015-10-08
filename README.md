@@ -15,6 +15,7 @@ In this exercise we will build a HTTP API for keeping stock of our diamonds.
   - x
   - y
   - z
+
 Explanations for all fields except id are available in the file prices-of-diamonds.html.
 id should be a auto-incrementing primary key.
 
