@@ -3,8 +3,8 @@
 In this exercise we will build a HTTP API for keeping stock of our diamonds.
 
 ## Exercises
-1. In diamond.js, write code to create a sqlite database, with a single table that has the folloiwng fields (Explanations for all fields except id are available in the file prices-of-diamonds.html.
-id should be a auto-incrementing primary key.):
+1. In diamond.js, write code to create a sqlite database, with a single table that has the following fields (Explanations for all fields except id are available in the file prices-of-diamonds.html.
+id should be an auto-incrementing primary key.):
   - id
   - carat
   - cut
@@ -21,7 +21,7 @@ id should be a auto-incrementing primary key.):
 
 1. Add four methods to the express app in diamond.js to:
   - GET a diamond by its id.
-  - POST new values for a diamond by its id.
+  - POST a new diamond, which will respond with the new id of the diamond.
   - PUT a new diamond at a given id.
   - DELETE a diamond by its id.
 
